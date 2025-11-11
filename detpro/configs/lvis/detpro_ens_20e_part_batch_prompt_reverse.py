@@ -79,5 +79,4 @@ model = dict(
         )
     )
 )
-load_from = '/home/clark/workspace2/detpro/workdirs/vild_ens_20e_fg_bg_5_10_end/epoch_18.pth'
-# resume_from = '/home/clark/workspace2/detpro/workdirs/vild_use_complete_to_train_without_complete_test_low_lr/epoch_1.pth'
+load_from = '/home/clark/workspace2/detpro/workdirs/detpro_stage1.pth'
