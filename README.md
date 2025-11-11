@@ -152,6 +152,9 @@ tools/dist_test_new.sh \
   - `https://huggingface.co/clarkqian/VOVTrack/tree/main/saved_models`
 - Expected locations after download:
   - `{REPO_ROOT}/saved_models/pretrained_models/iou_neg5_ens.pth`
+  - `{REPO_ROOT}/saved_models/pretrained_models/detpro_prompt.pt`
+  - `{REPO_ROOT}/saved_models/pretrained_models/ovtrack_clip_distillation.pth`
+  - `{REPO_ROOT}/saved_models/pretrained_models/ovtrack_detpro_prompt.pth`
   - `{REPO_ROOT}/saved_models/our_trained_models/detpro_stage1.pth`
   - `{REPO_ROOT}/saved_models/our_trained_models/detpro_stage2_finetune.pth`
   - `{REPO_ROOT}/saved_models/our_trained_models/ovtrack_pair.pth`
