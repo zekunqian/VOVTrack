@@ -89,7 +89,7 @@ Resulting checkpoint:
 ### Dataset
 - Use datasets as in OVTrack. See: [OVTrack Get Started](https://github.com/SysCV/ovtrack/blob/main/docs/GET_STARTED.md)
 
-### Pair Pretraining (same as OVTrack)
+### Stage 3: Pair Pretraining (same as OVTrack)
 
 Command:
 
@@ -105,7 +105,7 @@ tools/dist_train.sh configs/ovtrack-teta/ovtrack_r50_reverse_without_inference.p
 Resulting checkpoint:
 - `{REPO_ROOT}/saved_models/our_trained_models/ovtrack_pair.pth`
 
-### Self-supervised Fine-tuning
+### Stage 4: Self-supervised Fine-tuning
 
 Command:
 
